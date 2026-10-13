@@ -10,7 +10,7 @@ function Sidebar() {
     return (
         <div className='w-75 fixed h-screen flex flex-col bg-[#111727] text-[#F4FDFF] pl-4 pt-8'>
             <div className='flex flex-col gap-y-1'>
-                <div className='text-3xl'>RackGuard</div>
+                <div className='text-3xl'>Monitoring</div>
                 <div className='text-sm tracking-[0.2em]'>ADMIN DAHSBOARD</div>
             </div>
             <div className='mt-12 pr-4 flex flex-col gap-y-16'>
@@ -28,7 +28,7 @@ function Sidebar() {
                                 <span>Dashboard</span>
                             </button>
                         </Link>
-                        <Link href="/dashboard/inventory">
+                        {/* <Link href="/dashboard/inventory">
                             <button
                                 className={`w-full flex items-center gap-x-2 py-3 px-3 rounded-2xl transition ${pathname === "/dashboard/inventory"
                                     ? "bg-blue-500/20 text-white"
@@ -38,8 +38,8 @@ function Sidebar() {
                                 <img className="w-6 h-6" src="/icons/book.svg" alt="inventory" />
                                 <span>Inventory</span>
                             </button>
-                        </Link>
-                        <Link href="/dashboard/members">
+                        </Link> */}
+                        {/* <Link href="/dashboard/members">
                             <button
                                 className={`w-full flex items-center gap-x-2 py-3 px-3 rounded-2xl transition ${pathname === "/dashboard/members"
                                     ? "bg-blue-500/20 text-white"
@@ -71,10 +71,10 @@ function Sidebar() {
                                 <img className="w-6 h-6" src="/icons/reports.svg" alt="reports" />
                                 <span>Reports</span>
                             </button>
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
-                <div>
+                {/* <div>
                     <div className='text-sm tracking-[0.2em] font-semibold mb-4'>SYSTEM</div>
                     <div className='flex flex-col gap-y-3'>
                         <Link href="/dashboard/shelf">
@@ -101,7 +101,7 @@ function Sidebar() {
                         </Link>
                         
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="absolute bottom-0 left-0 p-4 border-t w-full border-gray-700 flex justify-between items-center gap-3">
                 <div className='flex gap-x-3'>
@@ -110,7 +110,7 @@ function Sidebar() {
                     </div>
                     <div>
                         <div className="text-sm font-semibold">Admin</div>
-                        <div className="text-xs text-gray-400">Chief Librarian</div>
+                        <div className="text-xs text-gray-400">Officer</div>
                     </div>
                 </div>
                 <div>
